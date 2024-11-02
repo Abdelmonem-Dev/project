@@ -1,0 +1,58 @@
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Apply styles to the form labels */
+.form-label {
+    font-weight: bold;
+}
+
+/* Apply styles to the form inputs */
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+/* Apply styles to the submit button */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Apply styles to the form container */
+.form-container {
+    max-width: 400px; /* Adjust based on your design */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding around the form */
+    background-color: #f9f9f9; /* Set background color for the form */
+    border-radius: 5px; /* Add rounded corners to the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+}
+
+#colorChangeButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
